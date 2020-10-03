@@ -11,3 +11,4 @@ while True:
     time.sleep(Timer)
     driver.quit()
     print('done')
+    exit()
