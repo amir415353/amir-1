@@ -4,7 +4,7 @@ from selenium import webdriver
 Timer = 20
 #youtube link
 link = input('please enter your link: ')
-driver = webdriver.OperaDriver()
+driver = webdriver.Opera()
 driver.get(link)
 
 while True:
